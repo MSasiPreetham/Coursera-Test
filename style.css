@@ -1,0 +1,78 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+	padding:0;
+}
+h1
+{
+	text-align: center;
+	font: 175% batmanforeveralternate;
+}
+h4
+{
+	float:right;
+	width: 100px;
+	font:23px snow Trocchi;
+	font-style: italic;
+	font-weight: 1000;
+	margin-top: -1px;
+	margin-right:-1px;
+	text-align: center;
+	background-color: bisque;
+	border: 1px solid black; 
+}
+#chicken
+{
+	background-color: gainsboro;
+}
+#beef
+{
+	background-color: salmon;
+}
+#sushi
+{
+	background-color: turquoise;
+}
+.col-lg-4,.col-md-6,.col-md-12,.col-sm-12
+{
+	float:left;
+	padding: 1px;
+	width: 100%;
+}
+section
+{
+	display: block;
+	border:1px solid black;
+	background-color: grey;
+	margin:10px;
+}
+section p
+{
+	padding:10px;
+	font-size: 18px;
+	clear: left;
+}
+/*********** Desktop Version **********/
+@media (min-width: 992px)
+{
+	.col-lg-4
+	{
+		width: 33.33%;
+	}
+}
+/*********** Tablet Version **********/
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.col-md-6
+	{
+		width: 50%;
+	}
+	.col-md-12
+	{
+		width: 100%;
+	}
+}
